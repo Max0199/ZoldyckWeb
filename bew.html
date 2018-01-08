@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Das  hier ist das Grund element der Zoldyck seite! Ich werde auch code annehemen den man mir zuschickt, wenn er gut ist versteht sich -->
+<!-- Ich werde dann deren namen als kommentar hinter den code schreiben. Damit man sieht wer welchen kommentar geschrieben hat wird der name am ende hinzugefügt  -->
+<!-- Es giebt manche Kommentare ohne Namen, das sind core Kommentare, die sind auf englisch und waren das erste das ich geschrieben habe als ich diese seite angefangen habe -->
+<!-- Sie beschreiben in welchem teil des Codes du dich befindest  -Fludixx -->
+  <html>
+    <head>
+      <meta charset="utf-8">
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Zoldyck MCPE</title>
+    </head>
+    <body>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="materialize.min.js"></script>
+
+
+      <nav>
+    <div class="nav-wrapper blau">
+      <a href="#!" class="brand-logo">Zoldyck</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Hauptseite</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="https://discord.gg/ZjFqfV2">Discord</a></li>
+        <li><a href="bew.html">Feedback</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Hauptseite</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="https://discord.gg/ZjFqfV2">Discord</a></li>
+        <li><a href="bew.html">Bewertung</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+<!-- CONTENT -->
+
+<div class="container"></br> <!-- BITTE NICHT WEGTUHEN, DAS IST EIN GRUND ELEMENT DER SEITE  -Fludixx -->
+<center>
+<h5>Bei einer Scala von 0 bis 10 Wie gut findest du unseren Server?</h5></center>
+  <form action="bew.hml">
+    <p class="range-field">
+      <input type="range" id="test5" min="0" max="10" />
+    </p>
+  <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="input_text" type="text" data-length="25">
+              <label for="input_text">Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea" data-length="500"></textarea>
+              <label for="textarea1">Bitte Begründe deine Wahl!</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <br />
+      <button class="btn waves-effect waves-light indigo" type="submit" name="action">Feedback senden
+  <i class="material-icons right">send</i>
+</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </from>
+  <!-- FOOTER -->
+</div>
+  <footer class="page-footer blau">
+           <div class="container">
+             <div class="row">
+               <div class="col l6 s12">
+                 <h5 class="white-text">Restliche Informationen </h5>
+                 <p class="grey-text text-lighten-4">
+                   Gieb uns Feedback! Bitte gieb nur Hilfreiches
+                 <a href="bew.html" ><b class="txt-logo txt-logo-shadow" style="text-decoration: ; color: white;">FEEDBACK</b></a></p>
+                 <!-- Ja ich weis das ich wenn ich schon text-decoration aufrufe etwas rein schreiben sollte -Fludixx -->
+                 <!-- Es wird da schon was stehen wenn ich was tolles gefunden habe, bisdahin bleibt es leer -Fludixx -->
+               </div>
+               <div class="col l4 offset-l2 s12">
+                 <h5 class="white-text">Links</h5>
+                 <ul>
+                   <li><a class="grey-text text-lighten-3" href="shop.html">SHOP.HTML</a></li>
+                   <li><a class="grey-text text-lighten-3" href="index.html">INDEX.HTML</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+           <div class="footer-copyright">
+             <div class="container">© 2017 - 2018&nbsp; <a class="grey-text text-lighten-4" href="https://twitter.com/ZoldyckServer?s=09"><b class="txt-logo txt-logo-shadow" >Zoldyck MCPE</b></a></div><a class="grey-text text-lighten-4 right"><b></b></a><!-- Da wird später eine Anzeige sein ob der Server on oder nicht ist, das wird mich zwingen den Index zu PHP umzuwandeln -Fludixx -->
+             <!-- Ich weis ich Programmiere unsauber, aber wenn es halt geht sollte man es nicht anfassen... -Fludixx -->
+             <!-- Ich spreche aus erfahrung. Übrigens warum lest ihr den Code? -Fludixx -->
+           </div>
+         </footer>
+
+      </body>
+      <script>
+      $( document ).ready(function() {
+        console.log("Wabalaba dabdab");
+        $(".button-collapse").sideNav();
+      });
+      </script>
+    </html>
